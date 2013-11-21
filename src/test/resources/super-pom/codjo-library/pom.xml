@@ -1,0 +1,43 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>net.codjo.library</groupId>
+    <artifactId>codjo-library</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <parent>
+        <groupId>net.codjo.pom</groupId>
+        <artifactId>super-pom</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <dependencyManagement>
+        <dependencies>
+            <!--<dependency>-->
+            <!--<groupId>net.codjo.library</groupId>-->
+            <!--<artifactId>codjo-library-withComments</artifactId>-->
+            <!--<version>${project.version}</version>-->
+            <!--</dependency>-->
+            <dependency>
+                <groupId>net.codjo.library</groupId>
+                <artifactId>codjo-library-inDependencyManagement</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>net.codjo.library</groupId>
+                <artifactId>codjo-library-inDependencyManagement</artifactId>
+                <version>${project.version}</version>
+                <classifier>client</classifier>
+            </dependency>
+            <!--<dependency>-->
+            <!--<groupId>net.codjo.library</groupId>-->
+            <!--<artifactId>codjo-library-withComments</artifactId>-->
+            <!--<version>${project.version}</version>-->
+            <!--<classifier>client</classifier>-->
+            <!--</dependency>-->
+        </dependencies>
+    </dependencyManagement>
+
+    <packaging>pom</packaging>
+    <modules>
+        <module>codjo-library-module</module>
+    </modules>
+</project>

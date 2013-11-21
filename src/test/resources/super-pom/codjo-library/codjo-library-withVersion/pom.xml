@@ -1,0 +1,19 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>codjo-library-module</artifactId>
+    <parent>
+        <groupId>net.codjo.library</groupId>
+        <artifactId>codjo-library</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <dependencies>
+        <dependency>
+            <groupId>net.codjo.library</groupId>
+            <artifactId>codjo-library-notInDependencyManagement</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+
+    <packaging>pom</packaging>
+</project>
