@@ -107,9 +107,9 @@
     -->
 
     <scm>
-        <connection>scm:git:https://github.com/codjo/enforcer.git</connection>
-        <developerConnection>scm:git:https://github.com/codjo/enforcer.git</developerConnection>
-        <url>https://github.com/codjo/enforcer</url>
+        <connection>scm:git:https://github.com/codjo/codjo-maven-enforcer.git</connection>
+        <developerConnection>scm:git:https://github.com/codjo/codjo-maven-enforcer.git</developerConnection>
+        <url>https://github.com/codjo/codjo-maven-enforcer</url>
     </scm>
 
 </project>
